@@ -28,17 +28,17 @@ This project uses several Python scripts that implement individual steps of the 
 
 - amr_analysis.py - merges AMRFinder outputs with metadata, computes AMR burden and MDR levels and generates summarising plots.
 
-- build_super_tables.py — constructs combined “supertables” containing 6, 96‑channel mutational spectra, metadata, and study labels used for PCA and modelling.
+- build_super_tables.py - constructs combined “supertables” containing 6, 96‑channel mutational spectra, metadata, and study labels used for PCA and modelling.
 
-- generate_labels.py — generates sample‑level labels (study, lineage, AMR categories) required for MutTui and PCA visualisation.
+- generate_labels.py - generates sample‑level labels (study, lineage, AMR categories) required for MutTui and PCA visualisation.
 
-- plot_sbs_stacked.py — produces stacked barplots of 96‑channel SBS mutational spectra aggregated by study and sequence type.
+- plot_sbs_stacked.py - produces stacked barplots of 96‑channel SBS mutational spectra aggregated by study and sequence type.
 
-- spectra_pca_96_channels.py — performs PCA on 96‑channel spectra, filters low‑mutation samples, and outputs PCA coordinates and diagnostic plots.
+- spectra_pca_96_channels.py - performs PCA on 96‑channel spectra, filters low‑mutation samples, and outputs PCA coordinates and diagnostic plots.
 
-- spectra_PC1_linear_models.py — fits linear models testing the association between PC1 and AMR burden, with and without study adjustment.
+- spectra_PC1_linear_models.py - fits linear models testing the association between PC1 and AMR burden, with and without study adjustment.
 
-- spectra_sig_linear_models.py — fits linear models linking individual SBS signatures (e.g., C>A, T>C) to AMR burden and study effects.
+- spectra_sig_linear_models.py - fits linear models linking individual SBS signatures (e.g., C>A, T>C) to AMR burden and study effects.
 
 
 ## Environment
