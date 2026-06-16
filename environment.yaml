@@ -1,0 +1,32 @@
+name: mrsa_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Python + Snakemake
+  - python=3.10
+  - snakemake
+
+  # Bioinformatics
+  - iqtree
+  - parsnp
+  - gubbins
+  - ncbi-amrfinderplus
+  - harvesttools
+  - bcftools
+  - samtools
+
+  # ML
+  - scikit-learn
+  - umap-learn
+  - statsmodels
+
+  # Plotting + data handling
+  - pandas
+  - numpy
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - plotly

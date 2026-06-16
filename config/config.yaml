@@ -1,0 +1,52 @@
+organism: "Staphylococcus_aureus"
+genomes_dir: "1_data/1_raw/genomes/cleaned"
+reference: "1_data/1_raw/reference/GCA_030533665_ref.fasta"
+
+amr_analysis:
+  report: "1_data/3_results/amrfinder_result.tsv"
+  metadata: "1_data/1_raw/metadata_CC1.xlsx"
+  output: "1_data/3_results/amrfinder_analysis"
+
+  report_metadata: "1_data/3_results/amrfinder_analysis/amr_metadata_merged.csv"
+  report_metadata_mdr_burden: "1_data/3_results/amrfinder_analysis/amr_metadata_mdr_burden.csv"
+
+
+muttui:
+  conversion_path: "1_data/2_processed/muttui/conversion.txt"
+  single_spectrum_dir: "1_data/3_results/muttui/single_spectrum"
+  labels_dir: "1_data/2_processed/muttui/labels"
+  labels:
+    - ST
+    - MDR_level
+    - amr_burden
+    - Collection_name
+    - Collection_geographical_range
+    - Sanger_ID
+  split_out_dir: "1_data/3_results/muttui/split_out"
+  spectra_analysis_dir: "1_data/3_results/muttui/spectra_analysis"
+
+
+super_tables:
+  dir: "1_data/2_processed/super_tables"
+  types:
+  - "6"
+  - "96"
+
+sbs_stacked_plots_dir: "1_data/3_results/sbs_stacked_plots"
+
+amr_spectra_analysis_dir: "1_data/3_results/amr_spectra_analysis"
+cosine_similarity_dir: "1_data/3_results/amr_spectra_analysis/cosine_similarity"
+
+MDR_levels: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+PCA_96:
+  dir: "1_data/3_results/PCA_96"
+
+signatures:
+  dir: "1_data/3_results/signatures"
+  list:
+    - C_A
+    - C_T
+    - T_G
+  models_dir: "1_data/3_results/signatures/models"
+  plots_dir: "1_data/3_results/signatures/plots"
