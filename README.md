@@ -45,3 +45,10 @@ This will:
 
 ### Mutational spectra
 - 6, 96‑channel SBS spectra generated using MutTui
+
+### Linear models
+- Model 1: AMR burden alone -> no association
+
+- Model 2: AMR burden + study -> significant positive association
+
+- Model 3: AMR burden × study -> no consistent study‑independent effect
