@@ -5,7 +5,9 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
+"""
+Module for modeling mutational sigantures
+"""
 
 
 def fit_signature_models(df: pd.DataFrame, signatures: list):

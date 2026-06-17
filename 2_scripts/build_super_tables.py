@@ -2,6 +2,10 @@ import pandas as pd
 from pathlib import Path
 import argparse as ap
 
+"""
+Module for building tabels of spectra for all labels (genomes) for downstream analysis
+"""
+
 
 def collapse_96_to_6(df):
     six = {"C>A": 0, "C>G": 0, "C>T": 0, "T>A": 0, "T>C": 0, "T>G": 0}

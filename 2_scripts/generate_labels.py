@@ -2,6 +2,11 @@ import pandas as pd
 from pathlib import Path
 import argparse as ap
 
+"""
+For generating files indicating to which group(label) each leaf belongs
+(for calculating splitted spectra)
+"""
+
 def generate_labels(amr_metadata_file, metadata_col, output_dir):
     """
     Create labels file: Branch, group

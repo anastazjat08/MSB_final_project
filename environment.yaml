@@ -18,7 +18,7 @@ dependencies:
   - bcftools
   - samtools
 
-  # ML
+  # Modeling
   - scikit-learn
   - umap-learn
   - statsmodels

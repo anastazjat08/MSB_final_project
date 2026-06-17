@@ -4,7 +4,7 @@ import argparse as ap
 import os
 
 """
-Fit models
+Module for modeling PC1 from PCA of 96-channels spectra
 """
 
 def fit_pc_models(df: pd.DataFrame):
